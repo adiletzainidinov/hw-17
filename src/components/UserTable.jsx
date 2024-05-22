@@ -82,7 +82,9 @@ const UserTable = ({ users, onDelete, onEdit }) => {
 export default UserTable;
 
 const Table = styled.table`
-	width: 100%;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 30px;
 	border-collapse: collapse;
 	font-family: Arial, Helvetica, sans-serif;
 

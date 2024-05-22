@@ -104,14 +104,14 @@ const AddUser = ({ onAdd }) => {
 export default AddUser;
 
 const Form = styled.form`
-	max-width: 400px;
+	max-width: 800px;
 	margin: 0 auto;
 	margin-top: 150px;
 `;
 
 const Input = styled.input`
 	width: 100%;
-	padding: 10px;
+	padding: 15px;
 	margin-bottom: 10px;
 	border: 1px solid ${(props) => (props.error ? "red" : "#ccc")};
 	border-radius: 4px;
@@ -134,15 +134,15 @@ const Select = styled.select`
 `;
 
 const Button = styled.button`
-	width: 400px;
-	height: 40px;
-	background-color: #007bff;
+	width: 800px;
+	height: 60px;
+	background-color: #32c5b2;
 	color: #fff;
 	border: none;
 	border-radius: 4px;
 	cursor: pointer;
-	font-size: 20px;
+	font-size: 30px;
 	&:hover {
-		background-color: #0056b3;
+		background-color: #64dbcb;
 	}
 `;

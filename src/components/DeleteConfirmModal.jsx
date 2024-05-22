@@ -55,7 +55,7 @@ const ButtonDelete = styled.button`
 	width: 100px;
 	height: 30px;
 	color: white;
-	background-color: red;
+	background-color: #4d0000;
 	border: none;
 	border-radius: 10px;
 	cursor: pointer;
@@ -64,7 +64,7 @@ const ButtonDelete = styled.button`
 	position: relative;
 	top: 7px;
 	&:hover {
-		background-color: #b61010;
+		background-color: #a11212;
 	}
 `;
 
@@ -72,7 +72,7 @@ const ButtonCancel = styled.button`
 	width: 100px;
 	height: 30px;
 	color: white;
-	background-color: #00ff00;
+	background-color: #05537c;
 	border: none;
 	border-radius: 10px;
 	cursor: pointer;
@@ -80,6 +80,6 @@ const ButtonCancel = styled.button`
 	position: relative;
 	top: 7px;
 	&:hover {
-		background-color: #16c216;
+		background-color: #318cbc;
 	}
 `;
